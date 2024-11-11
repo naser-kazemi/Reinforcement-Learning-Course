@@ -3,56 +3,61 @@
 This repository contains the homework assignments and projects for the graduate-level Reinforcement Learning (RL) course at Sharif University of Technology, Spring 2024. The course covers a wide range of topics in RL, from foundational methods to advanced algorithms.
 
 ## Table of Contents
-1. [Homework 1: Introduction to RL Basics](#homework-1-introduction-to-rl-basics)
-2. [Homework 2: Monte Carlo and Temporal Difference Learning](#homework-2-monte-carlo-and-temporal-difference-learning)
-3. [Homework 3: On-Policy Methods](#homework-3-on-policy-methods)
-4. [Homework 4: Advanced Deep Q-Networks](#homework-4-advanced-deep-q-networks)
+1. [Homework 1: Theoretical Foundations](#homework-1-theoretical-foundations)
+2. [Homework 2: Monte Carlo and Temporal Difference Learning, Deep Q-Networks (DQN)](#homework-2-monte-carlo-and-temporal-difference-learning-deep-q-networks-dqn)
+3. [Homework 3: Off-Policy Methods - REINFORCE and PPO](#homework-3-off-policy-methods---reinforce-and-ppo)
+4. [Homework 4: Offline Reinforcement Learning](#homework-4-offline-reinforcement-learning)
 
 ---
 
 ## Homework Details
 
-### Homework 1: Introduction to RL Basics
+### Homework 1: Theoretical Foundations
 
-- **Objective:** This assignment introduces the foundational concepts in RL, including the agent-environment interaction, reward structure, and initial setup for Markov Decision Processes (MDPs).
+- **Objective:** This assignment provides a strong theoretical foundation for reinforcement learning, focusing on essential concepts in related fields such as information theory and optimization.
 - **Topics Covered:**
-  - MDP formulation
-  - Simple policy evaluation methods
-  - Initial exploratory data collection
-- **Files:** `RL_HW1_Basics.ipynb`
+  - Information theory fundamentals
+  - Optimization techniques
+  - Variational calculus
+  - Stochastic processes
+  - Variational inference
+- **Files:** 
+  - `RL_HW1_Theory.pdf` - Theoretical assignment covering foundational topics crucial for understanding advanced RL concepts.
 
-### Homework 2: Monte Carlo and Temporal Difference (TD) Learning
+### Homework 2: Monte Carlo and Temporal Difference Learning, Deep Q-Networks (DQN)
 
-- **Objective:** Explore Monte Carlo methods and temporal difference learning, fundamental techniques in reinforcement learning.
+- **Objective:** This assignment explores Monte Carlo methods, temporal difference (TD) learning, and introduces Deep Q-Networks (DQN).
 - **Topics Covered:**
   - Monte Carlo (MC) prediction and control
   - Temporal Difference (TD) methods, including TD(0) and Q-learning
-  - Practical implementations and comparisons of MC vs. TD
+  - Introduction to Deep Q-Networks (DQN) and using neural networks for Q-value approximation
 - **Files:** 
-  - `RL_PHW2_MC_TD.ipynb`: Focuses on implementing MC and TD methods.
-  - `RL_PHW2_DQN.ipynb`: Explores Deep Q-Networks (DQN) as an extension of TD learning, applying neural networks to approximate Q-values.
+  - `RL_PHW2_MC_TD.ipynb` - Practical notebook covering Monte Carlo and Temporal Difference learning methods.
+  - `RL_PHW2_DQN.ipynb` - Practical notebook introducing and implementing DQN.
+  - `RL_HW2_Theory.pdf` - Theoretical assignment with questions on MC, TD, and DQN concepts.
 
-### Homework 3: On-Policy Methods
+### Homework 3: Off-Policy Methods - REINFORCE and PPO
 
-- **Objective:** Focuses on on-policy methods for learning, particularly with policies that evolve as learning progresses.
+- **Objective:** This homework focuses on off-policy methods, specifically REINFORCE and Proximal Policy Optimization (PPO), two popular algorithms in RL for policy optimization.
 - **Topics Covered:**
-  - SARSA (State-Action-Reward-State-Action) as an on-policy method
-  - Implementation and evaluation of on-policy control algorithms
-  - Comparison with off-policy methods
+  - REINFORCE algorithm for policy-gradient based learning
+  - Introduction and implementation of Proximal Policy Optimization (PPO), a widely-used method for stability in policy updates
+  - Comparison of REINFORCE and PPO in terms of stability and sample efficiency
 - **Files:** 
-  - `RL_HW3_On_Policy.ipynb`: Contains implementations and exercises on on-policy learning with SARSA and related algorithms.
+  - `RL_HW3_On_Policy.ipynb` - Practical notebook with implementations of REINFORCE and PPO.
+  - `RL_HW3_Theory.pdf` - Theoretical assignment on policy-gradient methods and PPO.
 
-### Homework 4: Advanced Deep Q-Networks (DQN)
+### Homework 4: Offline Reinforcement Learning
 
-- **Objective:** Delve into more advanced aspects of DQN, improving stability and efficiency in training.
+- **Objective:** Delve into Offline RL, where learning is based on fixed datasets without additional environment interactions, a common scenario in real-world applications where online exploration is limited.
 - **Topics Covered:**
-  - Experience replay and target networks in DQN
-  - Exploration techniques like epsilon-greedy and other strategies
-  - Practical considerations and tuning for deep learning in RL
+  - Offline RL fundamentals and challenges
+  - Techniques for training policies on pre-collected datasets
+  - Evaluation of policy performance in offline settings
 - **Files:**
-  - `RL_HW4_Practical.ipynb` and `RL_HW4_Practical_99102059.ipynb`: Implementations and experiments with DQN improvements.
-  - `RL_HW4_99102059.pdf`: A report summarizing the findings and analysis of the experiments.
+  - `RL_HW4_Practical.ipynb` - Practical notebooks on offline RL methods and analysis.
+  - `RL_HW4_Theory.pdf` - Theoretical assignment discussing key concepts and issues in Offline RL.
 
 ---
 
-This repository aims to provide a comprehensive resource for understanding and implementing key RL concepts, with practical exercises and reports to facilitate learning.
+This repository serves as a comprehensive resource for understanding and implementing key RL concepts, with both practical exercises and theoretical assignments to facilitate learning.
