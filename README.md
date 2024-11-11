@@ -3,14 +3,44 @@
 This repository contains the homework assignments and projects for the graduate-level Reinforcement Learning (RL) course at Sharif University of Technology, Spring 2024. The course covers a wide range of topics in RL, from foundational methods to advanced algorithms.
 
 ## Table of Contents
+1. [Poster Session: Combinatorial Causal Bandits](#poster-session-combinatorial-causal-bandits)
+2. [Homework Details](#homework-details)
+
+---
+
+---
+
+## Poster Session: Combinatorial Causal Bandits
+
+In addition to the course assignments, a poster session was conducted where I presented my work on **Combinatorial Causal Bandits**. This topic intersects reinforcement learning with causal inference, focusing on decision-making in environments where actions influence outcomes based on causal relationships, and optimal actions are selected from combinatorial options.
+
+### Overview of Combinatorial Causal Bandits
+
+- **Objective:** To address problems where an agent must make decisions that not only maximize rewards but also consider causal structures in complex, combinatorial action spaces.
+- **Key Challenges:**
+  - **Causal Inference in Bandit Settings:** Understanding and leveraging causal relationships to improve decision-making.
+  - **Combinatorial Action Spaces:** Dealing with a large number of possible action combinations, which makes exploration and exploitation more challenging.
+- **Methods:** The approach combines causal inference techniques with multi-armed bandit algorithms to prioritize actions based on inferred causal impacts. This is particularly relevant in scenarios where actions affect the environment in a combinatorial manner.
+- **Applications:** Such frameworks have applications in personalized recommendations, medical treatments, and any domain where understanding the causal impact of combined actions is crucial.
+
+### Poster Highlights
+
+The poster provided an overview of:
+- Theoretical foundations of causal bandits and their adaptation to combinatorial settings.
+- Algorithmic approaches to efficiently explore and exploit in causal environments.
+- Simulation results demonstrating the effectiveness of this approach in synthetic environments.
+
+**Files:** `Combinatorial Causal Bandits.pdf`
+
+---
+
+
+## Homework Details
+
 1. [Homework 1: Theoretical Foundations](#homework-1-theoretical-foundations)
 2. [Homework 2: Monte Carlo and Temporal Difference Learning, Deep Q-Networks (DQN)](#homework-2-monte-carlo-and-temporal-difference-learning-deep-q-networks-dqn)
 3. [Homework 3: Off-Policy Methods - REINFORCE and PPO](#homework-3-off-policy-methods---reinforce-and-ppo)
 4. [Homework 4: Offline Reinforcement Learning](#homework-4-offline-reinforcement-learning)
-
----
-
-## Homework Details
 
 ### Homework 1: Theoretical Foundations
 
